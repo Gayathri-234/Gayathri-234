@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfceb8fb-fb22-490b-8fb9-5286a1a5b10c" name="Changes" comment="Learning Identifiers">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/accessmodifierdemo/InnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/outerpackage/OuterClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/learningoopsconcepts/IdentifiersLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/accessmodifierdemo/AccessModifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/learningoopsconcepts/OuterClass.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +43,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OuterClass">
-    <configuration name="IdentifiersLearning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learningoopsconcepts.IdentifiersLearning" />
+  <component name="RunManager" selected="JUnit.AccessModifier.PersonalInfo">
+    <configuration name="AccessModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="accessmodifierdemo.AccessModifier" />
       <module name="LearningJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learningoopsconcepts.*" />
+          <option name="PATTERN" value="outerpackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,23 +57,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OuterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learningoopsconcepts.OuterClass" />
+    <configuration name="InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="accessmodifierdemo.InnerClass" />
       <module name="LearningJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learningoopsconcepts.*" />
+          <option name="PATTERN" value="accessmodifierdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="outerpackage.OuterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="outerpackage.OuterClass" />
+      <module name="LearningJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="outerpackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccessModifier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearningJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="accessmodifierdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="accessmodifierdemo" />
+      <option name="MAIN_CLASS_NAME" value="accessmodifierdemo.AccessModifier" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccessModifier.PersonalInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LearningJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="accessmodifierdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="accessmodifierdemo" />
+      <option name="MAIN_CLASS_NAME" value="accessmodifierdemo.AccessModifier" />
+      <option name="METHOD_NAME" value="PersonalInfo" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OuterClass" />
-        <item itemvalue="Application.IdentifiersLearning" />
+        <item itemvalue="JUnit.AccessModifier.PersonalInfo" />
+        <item itemvalue="JUnit.AccessModifier" />
+        <item itemvalue="Application.outerpackage.OuterClass" />
+        <item itemvalue="Application.InnerClass" />
+        <item itemvalue="Application.accessmodifierdemo.AccessModifier" />
       </list>
     </recent_temporary>
   </component>
@@ -88,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654535690927</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Learning Identifiers">
+      <created>1654539225529</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654539225529</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
